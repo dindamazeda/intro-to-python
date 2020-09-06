@@ -1,2 +1,2 @@
-# Napisati program koji će da uzme 10 bilo kojih brojeva od korisnika
-# Program treba da prođe kroz prikupljenje brojeve i napravi novu listu u kojoj će se naći brojevi koji su veći od 10 a manji od 20
+# write a program that will take 10 numbers from user input
+# The program needs to go through these numbers and create a new list where the numbers which are greater than 10 and less than 20 are stored

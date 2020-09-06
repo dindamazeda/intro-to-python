@@ -1,14 +1,14 @@
-slatkisi = []
+sweets = []
 
-slatkisi.append('jafa')
-slatkisi.append('plazma')
+sweets.append('jafa')
+sweets.append('plazma')
 
-print(slatkisi)
+print(sweets)
 
-brojevi = []
+numbers = []
 
-brojevi.append(4)
-brojevi.append(2)
-brojevi.append(88)
+numbers.append(4)
+numbers.append(2)
+numbers.append(88)
 
-print(brojevi)
+print(numbers)

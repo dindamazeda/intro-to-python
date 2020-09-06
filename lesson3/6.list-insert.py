@@ -1,12 +1,12 @@
-abeceda = ['a', 'b', 'd', 'e']
+alphabet = ['a', 'b', 'd', 'e']
 
-abeceda.insert(2, 'c')
+alphabet.insert(2, 'c')
 
-print(abeceda)
+print(alphabet)
 
 
-niz_brojeva = [10, 9, 8, 7, 6, 4, 3, 2, 1]
+list_of_numbers = [10, 9, 8, 7, 6, 4, 3, 2, 1]
 
-niz_brojeva.insert(-4, 5)
+list_of_numbers.insert(-4, 5)
 
-print(niz_brojeva)
+print(list_of_numbers)

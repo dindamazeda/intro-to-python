@@ -1,8 +1,8 @@
-domace_zivotinje = ['krava', 'ovca', 'kokoška']
-divlje_zivotinje = ['tigar', 'vuk', 'zec']
+domestic_animals = ['krava', 'ovca', 'kokoška']
+wild_animals = ['tigar', 'vuk', 'zec']
 
-sve_zivotinje = []
-sve_zivotinje.extend(domace_zivotinje)
-sve_zivotinje.extend(divlje_zivotinje)
+all_animals = []
+all_animals.extend(domestic_animals)
+all_animals.extend(wild_animals)
 
-print(sve_zivotinje)
+print(all_animals)

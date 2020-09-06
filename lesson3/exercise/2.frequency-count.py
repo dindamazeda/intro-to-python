@@ -1,5 +1,5 @@
-# Napisati program koji pita korisnika da upiše neku reč a zatim ispiše koliko se svako slovo ponavalja puta u toj reči
-### primer ###
-# program: Napiši neku reč i ja ću ti reći koliko se puta svako slovo ponavlja
-# korisnik: google
+# Write a program that will ask the user for a word and the count how many times each letter appears in that word
+### example ###
+# program: Enter a word
+# user: google
 # program: g: 2, o: 2, l: 1, e: 1

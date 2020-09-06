@@ -1,11 +1,11 @@
-kompanije = ['Google', 'Facebook', 'Yahoo', 'Microsoft', 'AirBnb']
+companies = ['Google', 'Facebook', 'Yahoo', 'Microsoft', 'AirBnb']
 
-pozicija_google_u_listi = kompanije.index('Google')
+index_of_google_in_the_list = companies.index('Google')
 
-print(pozicija_google_u_listi)
-print(kompanije[pozicija_google_u_listi] == 'Google')
+print(index_of_google_in_the_list)
+print(companies[index_of_google_in_the_list] == 'Google')
 
-gde_je_yahoo = kompanije.index('Yahoo', 0, len(kompanije))
+where_is_yahoo = companies.index('Yahoo', 0, len(companies))
 
-print('Yahoo je na poziciji {}'.format(gde_je_yahoo))
-print(kompanije[gde_je_yahoo] == 'Yahoo')
+print('Yahoo is on index {}'.format(where_is_yahoo))
+print(companies[where_is_yahoo] == 'Yahoo')

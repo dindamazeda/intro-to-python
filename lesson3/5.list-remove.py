@@ -1,9 +1,9 @@
-auti = ['bmw', 'porsche', 'audi', 'yugo']
+cars = ['bmw', 'porsche', 'audi', 'yugo']
 
-auti.remove('yugo')
+cars.remove('yugo')
 
-print(auti)
+print(cars)
 
-auti.remove('porsche')
+cars.remove('porsche')
 
-print(auti)
+print(cars)

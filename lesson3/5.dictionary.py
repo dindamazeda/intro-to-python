@@ -1,6 +1,6 @@
-osoba = {'ime': 'Petar', 'prezime': 'Petrovic', 'godine': 55}
-print(osoba['ime'])
+person = {'name': 'Petar', 'lastname': 'Petrovic', 'age': 55}
+print(person['name'])
 
-linije_prevoza = {25: 'Mirijevo', 7: 'Tasmajdan', 65: 'Zvezdara'}
-print(linije_prevoza[7])
+bus_lines = {25: 'Mirijevo', 7: 'Tasmajdan', 65: 'Zvezdara'}
+print(bus_lines[7])
 

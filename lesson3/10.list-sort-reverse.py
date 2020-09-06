@@ -1,7 +1,7 @@
-dnevnik = ['Petrović', 'Pavlović', 'Mitrović', 'Adžić', 'Bulatović']
+names = ['Petrović', 'Pavlović', 'Mitrović', 'Adžić', 'Bulatović']
 
-dnevnik.sort()
-print(dnevnik)
+names.sort()
+print(names)
 
-dnevnik.reverse()
-print(dnevnik)
+names.reverse()
+print(names)

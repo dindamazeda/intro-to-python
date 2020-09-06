@@ -1,2 +1,2 @@
-# Napisati program koji će da uzme listu 3 omiljena jela od korisnika i listu 3 omiljena pića
-# Spojiti sve to u treću listu i isprintati
+# write a program that create a list of 3 favourite meals and 3 favourite drinks from the user
+# Merge the two lists into a third one and print it

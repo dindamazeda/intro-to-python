@@ -1,5 +1,7 @@
-# Prethodnih 10 dana je merena temperatura i prosečna dnevna temperatura za svaki dan je smeštena u listu po redosledu
-# Pretvoriti listu temperatura u rečnik gde će ključ biti dan-1, dan-2 itd. a vrednost će biti temperatura za  taj dan
-### primer ###
-# dnevne_temperature = [27, 25, 29, 27, 30, 25, 28]
-# program: {dan-1: 27, dan-2: 25, dan-3: 29 ....}
+# In the past 10 days we have recorded the daily temperature and stored it in a ordered list
+# Turn this list into a dictionary where keys will be like day-1, day-2 etc. followed by a measurement for that day
+### example ###
+# temperature_by_day = [27, 25, 29, 27, 30, 25, 28]
+# program: {day-1: 27, day-2: 25, day-3: 29 ....}
+
+temperature_by_day = [27, 25, 29, 27, 30, 25, 28]

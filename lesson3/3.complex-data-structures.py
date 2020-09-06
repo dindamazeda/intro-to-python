@@ -1,5 +1,5 @@
 # +-------+-----------+-----+---------------+
-# | Ime   | Zanimanje | Pol | Mesto rođenja |
+# | name   | profession | sex | Place of birth |
 # +-------+-----------+-----+---------------+
 # | Pera  | Postar    | M   | Beograd       |
 # +-------+-----------+-----+---------------+
@@ -9,11 +9,11 @@
 # +-------+-----------+-----+---------------+
 
 
-pera = {'zanimanje': 'Postar', 'pol': 'M', 'mesto': 'Beograd'}
-vesna = {'zanimanje': 'Doktor', 'pol': 'Ž', 'mesto': 'Valjevo'}
-marko = {'zanimanje': 'Programer', 'pol': 'M', 'mesto': 'Kraljevo'}
+pera = {'profession': 'Postar', 'sex': 'M', 'place-of-birth': 'Beograd'}
+vesna = {'profession': 'Doktor', 'sex': 'Ž', 'place-of-birth': 'Valjevo'}
+marko = {'profession': 'Programer', 'sex': 'M', 'place-of-birth': 'Kraljevo'}
 
 
 recnik_osoba = {'pera': pera, 'vesna': vesna, 'marko': marko}
 
-print(recnik_osoba['marko']['zanimanje'])
+print(recnik_osoba['marko']['profession'])

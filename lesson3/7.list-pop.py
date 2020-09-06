@@ -1,11 +1,11 @@
-pisci = ['Dostojevski', 'Tolstoj', 'Andric', 'Bukovski']
+writers = ['Dostojevski', 'Tolstoj', 'Andric', 'Bukovski']
 
-poslednji_pisac_iz_niza = pisci.pop()
+last_writer_from_the_list = writers.pop()
 
-print(pisci)
-print(poslednji_pisac_iz_niza)
+print(writers)
+print(last_writer_from_the_list)
 
-drugi_pisac_iz_niza = pisci.pop(1)
+second_writer_from_the_list = writers.pop(1)
 
-print(pisci)
-print(drugi_pisac_iz_niza)
+print(writers)
+print(second_writer_from_the_list)

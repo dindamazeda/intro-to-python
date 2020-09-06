@@ -1,13 +1,13 @@
-macka = {'boja': 'crna', 'tip': 'kucna', 'godine': 3}
+cat = {'color': 'black', 'type': 'house', 'age': 3}
 
-print(macka['boja'])
+print(cat['color'])
 
-macka['boja'] = 'bela'
-print(macka)
+cat['color'] = 'white'
+print(cat)
 
 
-for key in macka:
+for key in cat:
     print(key)
 
-for key, value in macka.items():
+for key, value in cat.items():
     print(key, value)
