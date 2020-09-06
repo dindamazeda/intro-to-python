@@ -32,18 +32,18 @@ print(numbers)
 # print ('You have guessed the correct number {} times and {} times you were not correct'.format(correct, wrong))
 
 x = len(numbers)
-z = 0
-while z < x:
+index = 0
+while index < x:
     input_number = int(input('Guess a number between 0 and 10: '))
 
-    if z == len(numbers):
+    if index == len(numbers):
         break
 
-    if input_number == numbers[z]:
+    if input_number == numbers[index]:
         print('Bravo! That is the correct number. Try to guess a new one')
         correct += 1
     else:
         print('That is not a correct number. Try to guess a new number between 0 and 10')
         wrong += 1
 
-    z += 1
+    index += 1
