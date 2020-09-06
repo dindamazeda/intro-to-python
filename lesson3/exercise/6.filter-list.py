@@ -1,0 +1,2 @@
+# Napisati program koji će da uzme 10 bilo kojih brojeva od korisnika
+# Program treba da prođe kroz prikupljenje brojeve i napravi novu listu u kojoj će se naći brojevi koji su veći od 10 a manji od 20
