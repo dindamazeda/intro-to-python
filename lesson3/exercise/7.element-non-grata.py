@@ -6,3 +6,8 @@
 # program: ['jafa','rum-kasato', 'plazma', 'mars']
 
 sweets = ['jafa', 'bananica', 'rum-kasato', 'plazma', 'mars', 'bananica']
+print(sweets)
+input_sweet = input('Which one is your least favpurite? ')
+
+sweets.remove(input_sweet)
+print(sweets)
