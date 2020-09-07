@@ -7,10 +7,8 @@
 temperature_by_day = [27, 25, 29, 27, 30, 25, 28]
 dictionary_temperature ={}
 day = []
-for y in range(0,len(temperature_by_day)):
-    day.append('day-{}'.format(y+1))
-
-for x in range(0,len(temperature_by_day)):
+for x in range(0, len(temperature_by_day)):
+    day.append('day-{}'.format(x + 1))
     dictionary_temperature[day[x]] = temperature_by_day[x]
 
 print(dictionary_temperature)
