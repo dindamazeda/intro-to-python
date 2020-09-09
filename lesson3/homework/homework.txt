@@ -1,0 +1,225 @@
+PRVI ZADATAK
+
+# Napisati program koji će da uzme 3 omiljena jela od korisnika i smesti ih u listu
+# Zatim program treba da uzme 3 omiljena pića od korisnika i smesti ih u drugu listu
+# Spojiti sve to u treću listu i isprintati treću listu
+
+First Task
+Write a program that will ask 3 favourite meals from user and put them on a list
+Then the program should ask 3 favourite drinks from user and put them on a list
+Merge it all into the third list and print the third list
+
+
+DRUGI ZADATAK
+# Dat je niz brojeva. Napisati program koji će ispise najmanji i najveći broj iz niza
+# niz_brojeva = [15, 116, 54, 30, 21, 41, 65, 7, 105, 135, 173, 56, 197, 56, 136, 83, 97, 130, 184, 112, 83, 157, 189, 24, 28, 127, 166, 99, 37, 114, 3, 123, 160, 97, 152]
+
+Second Task
+a list of numbers is given. Write a program that print the smallest and largest number from the list
+list_of_numbers = [15, 116, 54, 30, 21, 41, 65, 7, 105, 135, 173, 56, 197, 56, 136, 83, 97, 130, 184, 112, 83, 157, 189, 24, 28, 127, 166, 99, 37, 114, 3, 123, 160, 97, 152]
+
+
+TREĆI ZADATAK
+# Dat je niz imenica u nasumičnom redosledu.
+# Napisati program koji će da grupiše imenice u novu listu na osnovu početnog slova tj. da ih poređa po redosledu
+# Međutim ima jedan uslov - prve imenice u novoj listi moraju da počinju sa slovom 'm', a nakon toga treba da ide po alfabetu
+# Videti primer ispod
+### primer ###
+# imenice = ['patka', 'kvaka', 'staka', 'barka', 'marka', 'koka', 'ljorka', 'abrakadabra', 'mantra', 'karma', 'deka', 'seka', 'mleka']
+# program: ['mantra', 'marka', 'mleka', 'abrakadabra', 'barka', 'deka', 'karma', 'koka', 'kvaka', 'ljorka', 'patka', 'seka', 'staka' ]
+
+Third Task
+a list of words in random is given.
+Write a program that group the words into a new list based on the initial letter. to sort them in order
+However, there is one condition - the first nouns in the new list must start with the letter 'm', and after that it should go in alphabetical order
+See example below
+Example
+nouns = ['patka', 'kvaka', 'staka', 'barka', 'marka', 'koka', 'ljorka', 'abrakadabra', 'mantra', 'karma', 'deka', 'seka', 'mleka']
+program: ['mantra', 'marka', 'mleka', 'abrakadabra', 'barka', 'deka', 'karma', 'koka', 'kvaka', 'ljorka', 'patka', 'seka', 'staka' ]
+
+
+ČETVRTI ZADATAK
+# Napisati program koji će uzeti neku reč od korisnika.
+# Nakon toga zameniti svaki samoglasnik sa znakom uzvika -> !
+### primer ###
+# program: Napiši neku reč:
+# korisnik: tranzicija
+# program: tr!nz!c!j!
+
+Fourth Task
+Write a program that will take a word from the user.
+Then replace each vowel with an exclamation mark ->!
+Example
+program: Write a word:
+user: tranzicija
+program: tr!nz!c!j!
+
+
+PETI ZADATAK
+# Data je lista sa nekim stringovima, napisati program koji će da kaže kolika je frekventnost elemenata u listi tj. koliko puta se neki element ponavlaja u listi
+### primer ###
+# imenice = ['abrakadabra', 'staka', 'marka', 'seka', 'patka', 'deka', 'mleka', 'marka', 'deka', 'deka', 'ljorka', 'staka', 'ljorka', 'staka', 'abrakadabra', 'mantra', 'staka', 'barka', 'ljorka', 'barka']
+# program: {'abrakadabra': 2, 'staka': 4, 'marka': 2, 'seka': 1, 'patka': 1, 'deka': 3, 'mleka': 1, 'ljorka': 3, 'mantra': 1, 'barka': 2}
+
+Fifth Task
+A list is given with some strings, write a program that will say how often the elements in the list are, i.e how many times an element is repeated in the list
+Example
+# nouns = ['abracadabra', 'staka', 'marka', 'seka', 'patka', 'deka', 'mleka', 'marka', 'deka', 'deka', 'ljorka', 'staka ',' ljorka ',' staka ',' abracadabra ',' mantra ',' staka ',' barka ',' ljorka ',' barka ']
+# program: {'abracadabra': 2, 'staka': 4, 'marka': 2, 'seka': 1, 'patka': 1, 'deka': 3, 'mleka': 1, 'ljorka': 3, 'mantra': 1, 'boat': 2}
+
+
+ŠESTI ZADATAK
+# Napisati program koji će da uzme dve liste i od njih napravi dictionary gde će elementi prve liste biti ključevi, a elementi druge liste vrednosti
+### primer ###
+# voce = ['banane', 'kivi', 'limun', 'lubenica', 'grejpfrut', 'jabuke', 'ananas']
+# cene = [127.5, 119.8, 220.3, 84.4, 255.8, 65.3, 182]
+program: {'banane': 127.5, 'kivi': 119.8 itd. }
+
+Sixth Task
+Write a program that will take two lists and make a dictionary out of them where the elements of the first list will be the keys and the elements of the second list the values
+Example
+# fruit = ['bananas', 'kiwi', 'lemon', 'watermelon', 'grapefruit', 'apples', 'pineapple']
+# prices = [127.5, 119.8, 220.3, 84.4, 255.8, 65.3, 182]
+program: {'bananas': 127.5, 'kiwis': 119.8, etc.}
+
+
+SEDMI ZADATAK
+# Enigma je mašina koja je korišćena za šifrovanje poruka -> https://en.wikipedia.org/wiki/Enigma_machine
+# Napisati program koji pita korisnika da otkuca neki tekst a zatim šifruje tu poruku i isprinta je
+# Šifrovanje je proces pretvaranja običnog teksta u neki nečitljiv tekst npr. tekst dobar dan pretvorimo u -> whkyi knq
+# Naš algoritam za šifrovanje će biti sledeći:
+# Imamo abecedu -> a,b,c,č,ć,d,dž,đ,e itd. -> https://sh.wikipedia.org/wiki/%C5%A0ablon:Srpskohrvatska_abeceda
+# Svako slovo iz korisnikovog teksta treba da se 'pomeri' za 4 mesta unapred u abecedi
+# Tako će npr. a postati ć, dok će b postati d itd.
+# Na taj način ćemo šifrovati poruku i ona će postati nečitljiva
+### primer ###
+# program: Unesi neku reč ili neki tekst i ja ću da ti šifrujem taj tekst
+# korisnik: baba
+# program: Tvoja šifrovana poruka je dćdć
+
+Seventh Task
+Enigma is a machine used to encrypt messages -> https://en.wikipedia.org/wiki/Enigma_machine
+Write a program that asks the user to type some text and then encrypt that message and print it out
+Encryption is the process of converting plain text into some unreadable text eg text "good day" we convert to -> "whkyi knq"
+Our encryption algorithm will be as follows:
+We have the alphabet -> a, b, c, č, ć, d, dž, đ, e, etc. -> https://sh.wikipedia.org/wiki/%C5%A0ablon:Srpskohrvatska_abeceda
+Each letter in the user's text should be 'moved' 4 places forward in the alphabet
+Thus, for example, a will become ć, while b will become d, and so on.
+This way we will encrypt the message and it will become unreadable
+Example
+program: Enter a word or a text and I will encrypt that text for you
+user: baba
+program: Your encrypted message is djdc
+
+
+OSMI ZADATAK
+# Uz pomoć while petlje napisati program koji će da isprinta sledeću šemu
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+
+Eight Task
+Using a while loop, write a program that will print the following scheme
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+
+
+DEVETI ZADATAK
+# Uzeti broj od 1 do 10 do korisnika
+# Napisati program koji će da kaže koje su reči u datoj listi duže od onog broja koji je korisnik uneo
+# npr. ako je korisnik uneo broj 4, onda prikazati reči koje imaju više od 4 slova
+# auti = ['bmw', 'porsche', 'audi', 'yugo', 'mitsubishi', 'nisan', 'toyota', 'kia', 'volvo', 'chevrolet', 'mazda']
+
+Ninth Task
+Ask user to pick a number from 1 to 10
+Write a program that will say which words in a given list are longer than the number the user entered
+e.g if the user has entered the number 4, then display words that have more than 4 letters
+car = ['bmw', 'porsche', 'audi', 'yugo', 'mitsubishi', 'nisan', 'toyota', 'kia', 'volvo', 'chevrolet', 'mazda']
+
+
+DESETI ZADATAK
+# Fibonačijev niz - napisati program koji će da isprina Fibonačijev niz
+# Fibonačijev niz je niz gde je svaki sledeći element u nizu zbir dva prethodna broja iz zbira -> https://en.wikipedia.org/wiki/Fibonacci_number
+# Pošto Fibonačijev niz može da ide do beskraja, isprintati niz samo do broja 377 a onda prekinuti program
+### primer ###
+# program: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377
+
+Tenth Task
+Fibonacci sequence - write a program that will tell the Fibonacci sequence
+Fibonacci string is a string where each subsequent element in the string is the sum of two previous numbers from the sum -> https://en.wikipedia.org/wiki/Fibonacci_number
+Since the Fibonacci sequence can go on indefinitely, print the string only to number 377 and then abort the program
+Example
+program: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377
+
+
+### BONUS ###
+JEDANAESTI ZADATAK
+# Pravićemo igru vešala, primer ovde -> http://www.losprimjer.com/vjesanje.php
+# Naravno naša će biti malo drugačija...
+# Reč koju korisnik treba da pogodi definišete sami kao neki string npr. rec_za_pogadjanje = 'smrdibuba'
+# Korisnik ima neograničen broj pokušaja
+# Kada svaki put korisnik unese slovo treba reći da li je pogodio neko slovo i treba isprintati delovi reči koje je pogodio do sada
+# Kada korisnik pogodi reč, treba isprintati koliko pokušaja mu je bilo potrebno da pogodi reč
+### primer ###
+# program: Zamislio sam neku reč. Upiši neko slovo i na taj način pokušaj da pogodiš reč (pretpostavimo da je reč smrdibuba)
+# korisnik: b
+# program: Bravo pronašao si slovo! Tvoja reč izgleda ovako _ _ _ _ _ b _ b _
+# itd. itd.
+# Odlično! Pogodio si reč smrdibuba. Uspeo si to iz 20 pokušaja.
+
+Eleventh Task
+We will make a gallows game, example here -> http://www.losprimjer.com/vjesanje.php
+Of course ours will be a little different ...
+Define the word that the user needs to guess as a string, e.g. word_for_guess = 'smrdibuba'
+The user has an unlimited number of attempts
+Each time a user enters a letter, they should say if they hit a letter and print out parts of the word they have hit so far
+When a user guesses a word, it should print how many attempts it took to guess the word
+Example
+program: Imagined a word. Type a letter and try to guess the word (the correct word is smrdibuba)
+user: b
+program: Bravo you found the letter! Your word looks like this _ _ _ _ _ b _ b _
+etc. etc.
+Great! You guessed the word stink bug. You did it in 20 attempts.
+
+
+DVANAESTI ZADATAK
+# Data su dva rečnika. Napisati program koji će da spoji dva rečnika u treći
+# prvi_recnik = {'a': 10, 'b': 20, 'c': 30}
+# drugi_recnik = {'d': 40, 'e': 50, 'f': 60}
+
+Twelfth Task
+Two dictionaries are given. Write a program that will merge two dictionaries into a third
+first_dictionary = {'a': 10, 'b': 20, 'c': 30}
+second_dictionary = {'d': 40, 'e': 50, 'f': 60}
+
+
+TRINAESTI ZADATAK
+# Dat je rečnik sa proizvodima i njihovim cenama
+# Napisati program koji će da od korisnika uzme neku cifru i da kaže koji proizvodi su skuplji od te cifre
+### primer ###
+# proizvodi = {'banane': 129, 'kivi': 188, 'limun': 232, 'lubenica': 98, 'grejpfrut': 203, 'jabuke': 75, 'ananas': 176}
+# program: Unesi neku cenu
+# korisnik: 150
+# program: Proizvodi koji su skuplji od 150din su kivi, limun, grejpfrut, ananas
+
+Thirteen Task
+A dictionary with products and their prices is given
+Write a program that will take a number from the user and say which products are more expensive than that number
+Example
+products = {'bananas': 129, 'kiwi': 188, 'lemon': 232, 'watermelon': 98, 'grapefruit': 203, 'apples': 75, 'pineapple': 176}
+program: Enter a price
+users: 150
+program: Products that are more expensive than 150 dinars are kiwi, lemon, grapefruit, pineapple
