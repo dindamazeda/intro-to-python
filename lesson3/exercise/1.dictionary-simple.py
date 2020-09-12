@@ -11,8 +11,8 @@
 # program: Thank you Marko. Your data is stored.
 
 name = input('What is your name? ')
-last_name = input ('What is your last name? ')
-date = input ('When were you born? ')
+last_name = input('What is your last name? ')
+date = input('When were you born? ')
 
-dictionary_data = {'Name':name, 'Last Name':last_name, 'Date of Birth':date}
-print ('Thank you {}. Your data is stored'.format(dictionary_data['Name']))
+dictionary_data = {'name': name, 'last-name': last_name, 'date-of-birth': date}
+print('Thank you {}. Your data is stored'.format(dictionary_data['name']))

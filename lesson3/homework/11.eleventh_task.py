@@ -37,7 +37,7 @@ while list_word != output_list:
         if list_word[x] == (input_letter) :
             output_list [x] = input_letter
             output_word = ' '.join(output_list)
-    print('Bravo you found the letter! Your word looks like this {}'.format(output_word))
+            print('Bravo you found the letter! Your word looks like this {}'.format(output_word))
     attempt += 1
 
 print('Great! You guessed the word {}. You did it in {} attempts.'.format(word_for_guess, attempt))

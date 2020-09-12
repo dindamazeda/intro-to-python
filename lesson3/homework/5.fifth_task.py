@@ -12,7 +12,8 @@
 
 import re
 
-words = ['abracadabra', 'staka', 'marka', 'seka', 'patka', 'deka', 'mleka', 'marka', 'deka', 'deka', 'ljorka', 'staka ',' ljorka ',' staka ',' abracadabra ',' mantra ',' staka ',' barka ',' ljorka ',' barka ']
+words = ['abracadabra', 'staka', 'marka', 'seka', 'patka', 'deka', 'mleka', 'marka', 'deka', 'deka', 'ljorka', 'staka ',
+         ' ljorka ', ' staka ', ' abracadabra', ' mantra ', ' staka ', ' barka ', ' ljorka ', ' barka ']
 print(words)
 frequency = {}
 
@@ -20,8 +21,8 @@ for x in words:
     x = re.sub(r"\s+", "", x, flags=re.UNICODE)
     # print(x)
     if x in frequency:
-      frequency[x] += 1
+        frequency[x] += 1
     else:
-      frequency[x] = 1
+        frequency[x] = 1
 
 print(frequency)

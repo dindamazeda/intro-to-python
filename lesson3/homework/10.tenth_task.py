@@ -12,10 +12,9 @@
 # Example
 # program: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377
 #
-list_fibonacci = [1,1]
+list_fibonacci = [1, 1]
 x = 2
-while x <=13:
-    list_fibonacci.append(list_fibonacci[x-1]+list_fibonacci[x-2])
-    x+=1
+while x <= 13:
+    list_fibonacci.append(list_fibonacci[x - 1] + list_fibonacci[x - 2])
+    x += 1
 print(list_fibonacci)
-

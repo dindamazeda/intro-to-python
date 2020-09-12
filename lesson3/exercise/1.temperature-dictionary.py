@@ -6,9 +6,14 @@
 
 temperature_by_day = [27, 25, 29, 27, 30, 25, 28]
 dictionary_temperature ={}
-day = []
+
 for x in range(0, len(temperature_by_day)):
-    day.append('day-{}'.format(x + 1))
-    dictionary_temperature[day[x]] = temperature_by_day[x]
+    key = 'day-{}'.format(x + 1)
+    dictionary_temperature[key] = temperature_by_day[x]
+
+# Alternative solution
+for index, temperature in enumerate(temperature_by_day, 1):
+    key = 'day-{}'.format(index)
+    dictionary_temperature[key] = temperature
 
 print(dictionary_temperature)

@@ -37,16 +37,15 @@ index_word = [list_alphabet.index(x) for x in input_word]
 index_encrypted = []
 encrypted_list = []
 
+
 for x in index_word:
     if x > 21:
-        x-=20
+        x -= 20
     else:
-        x+=4
+        x += 4
     index_encrypted.append(x)
     encrypted_list.append(list_alphabet[x])
 
 encrypted_string = ' '.join(encrypted_list)
 
-print ('Your encrypted message is {}'.format(encrypted_string))
-
-
+print('Your encrypted message is {}'.format(encrypted_string))

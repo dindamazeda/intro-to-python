@@ -5,14 +5,16 @@
 # program: g: 2, o: 2, l: 1, e: 1
 
 word = input('Enter a word: ')
-word_list = list(word)
 frequency = {}
 
-for x in word_list:
+for x in word:
     # print(x)
     if x in frequency:
-      frequency[x] += 1
-    else:
-      frequency[x] = 1
+        frequency[x] += 1
+
+    frequency.setdefault(x, 1)
+
+    # else:
+    #   frequency[x] = 1
 
 print(frequency)

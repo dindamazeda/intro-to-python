@@ -8,10 +8,10 @@
 words = ['patka', 'kvaka', 'staka', 'barka', 'marka', 'koka', 'ljorka', 'mantra', 'karma', 'deka', 'seka', 'mleka']
 sorted_words = sorted(words)
 
-m_words =[]
+m_words = []
 no_m_words = []
 for x in sorted_words:
-    if x[0][0]=='m':
+    if x[0][0] == 'm':
         m_words.append(x)
     else:
         no_m_words.append(x)
