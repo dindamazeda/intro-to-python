@@ -1,0 +1,1 @@
+# Napisati funkciju koja će da kvadrira broj koji je uzet od korisnika

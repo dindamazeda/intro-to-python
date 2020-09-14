@@ -1,0 +1,68 @@
+PRVI ZADATAK
+# Kreativnost :)
+# Ispod je dat deo teksta čuvene pesme Daddy cool od grupe Boney M, pesmu možete poslušati ovde -> https://www.youtube.com/watch?v=QtxlCsVKkvY
+# Potrebno je da napišemo program koji će ispisati (ili otpevati :) ) tekst ispod
+# S obzirom na to da zadatak nema fiksno rešenje, kriterijum za najbolje rešenje će se oslanjati na kreativnost, zato budite kreativni i koristite funkcije! ;)
+
+
+
+DRUGI ZADATAK
+# Dat je rečnik. Napisati funkciju koja će uz pomoć dictionary comprehension da zameni mesta za ključeve i vrednosti u novom rečniku
+# recnik = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+# Očekivani rezultat -> {1: 'a', 2: 'b' itd. }
+
+recnik = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+
+
+
+TREĆI ZADATAK - povratak enigme :)
+# Enigma je mašina koja je korišćena za šifrovanje poruka -> https://en.wikipedia.org/wiki/Enigma_machine
+# Napisati program koji pita korisnika da otkuca neki tekst a zatim šifruje tu poruku i isprinta je
+# Šifrovanje je proces pretvaranja običnog teksta u neki nečitljiv tekst npr. tekst dobar dan pretvorimo u -> whkyi knq
+# Naš algoritam za šifrovanje će biti sledeći:
+# Imamo abecedu -> a,b,c,č,ć,d,dž,đ,e itd. -> https://sh.wikipedia.org/wiki/%C5%A0ablon:Srpskohrvatska_abeceda
+# Svako slovo iz korisnikovog teksta treba da se 'pomeri' za 4 mesta unapred u abecedi
+# Tako će npr. a postati ć, dok će b postati d itd.
+# Na taj način ćemo šifrovati poruku i ona će postati nečitljiva
+
+# Svi se sećate ovog zadatka i sada ćemo da ga uradimo ponovo :)
+# S tim što ovaj put rešenje treba da bude što (čitljivije i sa manje linija koda)
+# Poenta je da iskoristite sve stvari koje ste do sada učili
+# Pogledajte vaše prethodno rešenje i razmislite kako možete da ga poboljšate sa funkcijama koje smo učili prethodnih nedelja
+
+
+### primer ###
+# program: Unesi neku reč ili neki tekst i ja ću da ti šifrujem taj tekst
+# korisnik: baba
+# program: Tvoja šifrovana poruka je dćdć
+
+
+
+
+ČETVRTI ZADATAK
+# Dat je rečnik sa proizvodima i njihovim cenama
+# Napisati program koji će da od korisnika uzme neku cifru i da ispiše listu proizvoda koji su skuplji od te cifre.
+# Program treba da bude napisan na 4 linije koda od kojih prvu liniju već imate ispod (promenljiva proizvodi) :)
+### primer ###
+# proizvodi = {'banane': 129, 'kivi': 188, 'limun': 232, 'lubenica': 98, 'grejpfrut': 203, 'jabuke': 75, 'ananas': 176}
+# program: Unesi neku cenu
+# korisnik: 150
+# program: Proizvodi koji su skuplji od 150din su kivi, limun, grejpfrut, ananas
+
+
+
+PETI ZADATAK
+# Koristeći funkcije potrebno je da napravimo program koji obračunava plate a naš program će koristi zaposleni iz finansijskog odeljenja
+# Program treba da uzme 2 vrednosti od korisnika, prva je broj sati koje je radnik odradio za ovaj mesec, a druga je cena po satu za tog radnika
+# Kada program izračuna platu za taj mesec i ako ta plata spada u neku kategoriju visokih primanja, potrebno je na osnovu kategorizacije skinuti još dodatni procenat od te sume na ime poreza državi :)
+# Kategorija za visoke plate se nalazi u rečniku ispod
+### primer ###
+# program: Upiši broj sati koje je radnik odradio za ovaj mesec
+# korisnik: 154
+# program: Upiši cenu za sat
+# korisnik: 600
+# program: Obračun za ovog korisnika iznosi 92400 dinara
+# program: Korisnik spada u kategoriju visokih primanja 58000-93000 i mora da plati porez od 18%
+# program: Suma koju treba isplatiti radniku je 75768 dinara
+
+opseg_plate_i_porez_za_taj_opseg = {'35000-45000': 10, '45000-58000': 14, '58000-93000': 18, '93000-5000000': 25}

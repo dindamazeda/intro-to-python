@@ -1,0 +1,1 @@
+# Napisati program koji će korisnika da pita za nekih 5 reči a zatim utvrditi koja je najkraća i najduža reč i ispisati koliki broj slova su imale te reči

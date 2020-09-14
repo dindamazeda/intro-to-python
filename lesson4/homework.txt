@@ -1,0 +1,65 @@
+PRVI ZADATAK
+# Treba da podelimo neki string na 2 dela
+# Ako taj string ima paran broj slova onda ćemo dobiti dva jednaka dela
+# Ako string ima neparan broj slova onda će ono slovo viška završiti u prvom delu stringa
+# Npr. ako je dat string 'abcde', nakon podele dobićemo dva stringa i to prvi string će biti 'abc' a drugi string 'de'
+# Napisati program koji će da uzme dve reči, podeli ih i izvrši sledeću operacije nad njima
+# prva-rec-prvi-deo + druga-rec-prvi-deo + prva-rec-drugi-deo + druga-rec-drugi-deo
+### primer ###
+# program: Upiši dve reči
+# korisnik: macka parmezan
+# program: macparmkaezan
+
+
+
+
+DRUGI ZADATAK
+# Dat je tekst ispod. Napisati program koji će da prebroji koliko se puta svaka reč pojavljuje u datom tekstu.
+# Program mora da ignoriše mala ili velika slova npr. ako je dat tekst -> 'Republika je republika' program treba da isprinta republika: 2, je: 1
+
+tekst = 'Pop kopa bob ko pokopa pop bob. Miš uz pušku miš niz pušku. Na vrh brda vrba brda! Crn jarac, crn trn, crn brsti trn na vrh brda pop jede bob!'
+
+
+
+
+TREĆI ZADATAK
+# Napisati program koji će pronaći slične reči u datom tekstu ispod
+# Kako definišemo sličnost? Ako uzmemo neke dve reči npr. kratak i patka ove dve reči imaju tri zajednička slova (a,t i k) i njihova sličnost će biti 3
+# Što je veći broj zajedničkih slova to je sličnost veća
+# Program treba da uporedi svaku reč i da napravi parove reči i da ispiše njihovu sličnost npr. ako imamo tekst
+# Patka je kratka -> treba da dobijemo patka-kratka: 3, patka-je: 0, je-kratka: 0
+# Obratite pažnju da u finalnom ispisu eliminišete "duple parove" npr. patka-kratka: 3 i kratka-patka: 3 ćemo smatrati duplikatima tako da je dovoljno ostaviti samo jedan unos
+
+tekst = 'hajka je bajka koja vreba iz prikrajka dok je Barevo naselje gde ne manjka veselje'
+
+
+
+
+ČETVRTI ZADATAK
+# Napisati program koji će za svaku reč u datom tekstu reći da je li je ta reč heterogram ili nije
+# Heterogram je reč u kojoj se svako slovo pojavljuje samo jednom npr. reč bajkovit je heterogram dok reč bajka nije heterogram jer se slovo a ponavlja 2 puta
+# Ako je dat tekst -> bajkovit je bajka -> program treba da ispiše sledeće:
+# program: bajkovit je heterogram
+# program: je je heterogram
+# program: bajka nije heterogram
+
+tekst = 'centrifuga je sila kojom se upravljaju veš mašine'
+
+
+
+
+PETI ZADATAK
+# Napisaćemo program koji utvrđuje frekventnost slova u srpskom jeziku nad datim tekstom
+# Potrebno je ispisati rečnik sa slovom i procenat (udeo) tog slova u odnosu na ukupan broj slova
+# npr. ako je dat tekst -> patka je slatka, program treba da zna sledeće:
+# u tekstu ima 13 slova (razmaci se ne računaju kao slovo!) dok se slovo 'a' ponavlja 4 puta
+# To znači da u rečniku treba da stoji a: 30.76 jer je toliki udeo (procenat) slova a u odnosu na ukupan broj slova
+# Pažnja! - promenljiva koja je data ispod je i dalje string i ponaša se isto kao i svaki string bez obzira što je na više linija to je i dalje jedan string!
+# U Pythonu su dozvoljeni stringovi na više linija (ako je tekst dugačak kao ovaj naš sada npr.) samo se umesto apostrofa ili navodnika stave 3 apostrofa ili 3 navodnika
+
+tekst = """Prestižno priznanje Man Buker u fokus najpre stavlja uži izbor koji je u septembru prošle godine imao šest knjiga.
+Nagradu je, među autorima koji su pažnju posvetili osobenom istraživanju engleskog jezika, temama istraživanja bola, društvene i rodne nepravde,
+kao i ugrožene prirode, prvi put osvojila autorka iz Severne Irske Ana Berns za roman Mlekadžija.
+Ona je osvetlila problem zlostavljanja jedne mlade devojke.
+Zašto se bavimo brojevima kada je u stvaralaštvu, u bilo kojoj umetničkoj oblasti, kvalitet najvažniji?
+Upravo zbog toga što je i književno stvaranje oblast slobode u kojoj ne bi trebalo da vlada industrijalizacija kreacije, odnosno osrednjost u štancovanju."""
