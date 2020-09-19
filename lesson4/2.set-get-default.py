@@ -16,4 +16,6 @@ for product in products:
 print(available_quantity)
 
 print(available_quantity.setdefault('brasno', 22))
+#q: value for brasno is 0?
 print(available_quantity)
+
