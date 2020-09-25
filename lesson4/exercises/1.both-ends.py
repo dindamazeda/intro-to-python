@@ -5,6 +5,5 @@
 # program: Tvoja reč je -> koet
 
 input_word = input('type a word: ')
-list_input_word = list(input_word)
-output_word = [list_input_word[0],list_input_word[1],list_input_word[-2],list_input_word[-1]]
+output_word = [input_word[0], input_word[1], input_word[-2], input_word[-1]]
 print('your word is {}'.format(''.join(output_word)))
