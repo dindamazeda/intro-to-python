@@ -1,0 +1,53 @@
+# THIRD TASK - return of the enigma :)
+# Enigma is a machine used to encrypt messages -> https://en.wikipedia.org/wiki/Enigma_machine
+# Write a program that asks the user to type some text and then encrypt that message and print it out
+# Encryption is the process of converting plain text into some unreadable text e.g. text good day turn to -> whkyi knq
+# Our encryption algorithm will be as follows:
+# We have the alphabet -> a, b, c, h, ć, d, dž, đ, e, etc. -> https://en.wikipedia.org/wiki/%C5%A0ablon:Srpskohrvatska_abeceda
+# Each letter from the user's text should be 'moved' 4 places forward in the alphabet
+# So will e.g. a will become ć, while b will become d, etc.
+# This way we will encrypt the message and it will become unreadable
+
+# You all remember this task and now we will do it again :)
+# However, this time the solution should be as readable as possible (more readable and with fewer lines of code)
+# The point is to take advantage of all the things you’ve learned so far
+# Take a look at your previous solution and think about how you can improve it with the features we learned in previous weeks
+
+
+### example ###
+# program: Enter a word or a text and I will encrypt that text for you
+# user: baba
+# program: Your encrypted message is djdc
+
+# # previous solution
+# import string
+#
+# list_alphabet = list(string.ascii_lowercase)
+# input_word = input('Enter a word or a text and I will encrypt that text for you\n')
+# index_word = [list_alphabet.index(x) for x in input_word]
+#
+#
+# index_encrypted = []
+# encrypted_list = []
+#
+#
+# for x in index_word:
+#     if x > 21:
+#         x -= 20
+#     else:
+#         x += 4
+#     index_encrypted.append(x)
+#     encrypted_list.append(list_alphabet[x])
+#
+# encrypted_string = ' '.join(encrypted_list)
+#
+# print('Your encrypted message is {}'.format(encrypted_string))
+#
+#
+
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+encrypted_alphabet = 'defghijklmnopqrstuvwxyzabc'
+dictionary_alphabet = {letter : encrypted for letter, encrypted in zip (alphabet,encrypted_alphabet)}
+input_word = input('Enter a word or a text and I will encrypt that text for you\n')
+encrypted_word = [dictionary_alphabet[x] for x in input_word]
+print('Your encrypted message is {}'.format(''.join(encrypted_word)))
