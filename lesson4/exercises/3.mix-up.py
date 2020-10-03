@@ -9,4 +9,4 @@
 
 first_word = input('Enter the first word: ')
 second_word = input('Enter the second word: ')
-print('{}{} {}{}'.format(second_word[0],first_word[1:],first_word[0],second_word[1:]))
+print('{}{} {}{}'.format(second_word[0], first_word[1:], first_word[0], second_word[1:]))

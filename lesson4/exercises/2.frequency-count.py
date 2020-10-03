@@ -10,7 +10,7 @@ input_word = input('Write a word and I will tell you how many times each letter 
 dictionary_word = {}
 
 for x in input_word:
-    dictionary_word.setdefault(x,0)
+    dictionary_word.setdefault(x, 0)
     if x in dictionary_word:
-        dictionary_word[x] +=1
+        dictionary_word[x] += 1
 print(dictionary_word)

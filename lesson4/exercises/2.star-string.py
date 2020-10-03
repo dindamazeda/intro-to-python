@@ -7,4 +7,4 @@
 
 input_word = input('Write a word: ')
 star_word = input_word.replace(input_word[0], '*')
-print('{}{}'.format(input_word[0],star_word[1:]))
+print('{}{}'.format(input_word[0], star_word[1:]))

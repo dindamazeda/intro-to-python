@@ -10,11 +10,15 @@ first_word = input('Enter the first word: ')
 second_word = input('Enter the second word: ')
 third_word = input('Enter the third word: ')
 
+
+# rewrite this using set
 list_letter = []
 for x in first_word:
     if x in second_word and x in third_word:
         list_letter.append(x)
 
+
+# do not do this - changing list/dictionary that you are iterating over
 for x in list_letter:
    if x not in list_letter:
        list_letter.remove(x)
